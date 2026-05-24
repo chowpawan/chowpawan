@@ -56,7 +56,8 @@
 ## 📊 GitHub Stats
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chowpawan&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chowpawan&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400)
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chowpawan&theme=tokyonight&no-frame=true&row=1&column=6)
 
 ---
 
