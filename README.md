@@ -1,10 +1,6 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=120&section=header" />
-</div>div>
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=120&section=header&text=Hey,%20I'm%20Pawan!&fontSize=40&fontColor=ffffff&fontAlignY=70)
 
 # Hello, I'm Pawan 👋
-
-<div align="center">
 
 ```bash
 /pawan $ cat about.json
@@ -19,13 +15,9 @@
 }
 ```
 
-</div>
-
 ---
 
 ## 🛠️ Tech Stack
-
-<div align="center">
 
 ### Languages & Frameworks
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -48,8 +40,6 @@
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-</div>
-
 ---
 
 ## 🚀 Featured Projects
@@ -65,33 +55,25 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=chowpawan&show_icons=true&theme=tokyonight&hide_border=true" />
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chowpawan&layout=compact&theme=tokyonight&hide_border=true" />
-</div>div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chowpawan&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chowpawan&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
 ## 🤝 Connect with me
 
-<div align="center">
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pavankalp)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://chowpawan.github.io/Portfolio/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pawanpoka3333@gmail.com)
-
-</div>
 
 ---
 
 ## 💼 For Recruiters
 
 > I'm a **Software Engineer II at Intuit** working on the QuickBooks Sales & Invoicing platform — a tier-0 service processing **50K+ transactions/minute** and **$1–2B in payments annually**.
+>
+> > Currently driving a **monolith-to-microservices** migration and building GraphQL surfaces for the QuickBooks mobile app.
 > >
-> >> Currently driving a **monolith-to-microservices** migration and building GraphQL surfaces for the QuickBooks mobile app.
-> >> >
-> >> >> Open to senior backend / distributed systems roles. Feel free to reach out!
-> >> >>
-> >> >> <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=80&section=footer" />
-  </div>
+> > > Open to senior backend / distributed systems roles. Feel free to reach out!
+> > >
+> > > ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=80&section=footer)
