@@ -1,9 +1,9 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=120&section=header&text=Hey,%20I'm%20Pawan!&fontSize=40&fontColor=ffffff&fontAlignY=70)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=120&section=header&text=Hey,%20I'm%20Pavan!&fontSize=40&fontColor=ffffff&fontAlignY=70)
 
-# Hello, I'm Pawan 👋
+# Hello, I'm Pavan 👋
 
 ```bash
-/pawan $ cat about.json
+/pavan $ cat about.json
 {
   "name": "Venkata Pavan Kalyan Poka",
   "role": "Software Engineer II @ Intuit",
@@ -11,7 +11,7 @@
   "location": "Mountain View, CA",
   "stack": ["Java", "Spring Boot", "Kafka", "Kubernetes", "AWS", "Redis"],
   "currently_building": "QuickBooks Sales & Invoicing Platform",
-  "processes": "50,000+ transactions/minute & $1-2B/year"
+  "processes": "50,000+ transactions/minute & $1–2B/year"
 }
 ```
 
@@ -46,18 +46,23 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| [**APIGateway**](https://github.com/chowpawan/APIGateWay) | Spring Boot gateway with Token Bucket/Leaky Bucket rate limiting, Resilience4j circuit breakers, JWT auth | Java, Redis, Spring Boot |
-| [**EventBus**](https://github.com/chowpawan/EventBus) | Pluggable Kafka event bus with DLQ, exponential backoff, idempotent producer & Prometheus metrics | Java, Kafka, Spring Boot |
-| [**Distributed Payment System**](https://github.com/chowpawan/Distributed-Payment-Processing-System) | 4 microservices with Stripe, Saga orchestrator, HMAC-SHA256 webhooks & reconciliation worker | Java, Redis, Stripe |
+| [**EventBus**](https://github.com/chowpawan/EventBus) | Pluggable Kafka event bus with schema validation, per-topic DLQ, exponential backoff retry, idempotent producer (acks=all), correlation-ID tracing & Prometheus metrics | Java, Kafka, Spring Boot |
+| [**APIGateway**](https://github.com/chowpawan/APIGateWay) | Spring Boot gateway with Token Bucket/Leaky Bucket rate limiting on Redis (atomic Lua), Resilience4j circuit breakers, JWT auth & Prometheus/Grafana metrics | Java, Redis, Spring Boot |
+| [**Distributed Payment System**](https://github.com/chowpawan/Distributed-Payment-Processing-System) | 4 microservices integrating with Stripe sandbox — idempotency-key dedup on Redis (SETNX), Saga orchestrator with crash recovery, reconciliation worker & HMAC-SHA256 webhooks | Java, Redis, Stripe |
+| [**Ecommerce Microservices**](https://github.com/chowpawan/ecommerce-microservices) | Spring Cloud services (orders, inventory, payments, notifications) wired via Kafka, MySQL read replicas, Redis caching & K8s blue-green deploys | Java, Kafka, Kubernetes |
 | [**MiniKV**](https://github.com/chowpawan/MiniKV) | Write-optimized key-value store from scratch — LSM-Tree: WAL → MemTable → SSTables with Bloom filters | Java |
 
 ---
 
-## 📊 GitHub Stats
+## 💼 For Recruiters
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=chowpawan&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chowpawan&theme=tokyonight&no-frame=true&row=1&column=6)
+> I'm a **Software Engineer II at Intuit** on the QuickBooks Sales & Invoicing platform — a tier-0 service processing **50K+ transactions/minute** and **$1–2B in payments annually**.
+>
+> Core work includes driving a **monolith-to-microservices** migration (13 APIs), shipping **GraphQL endpoints** for the QuickBooks mobile app, and building a **Redis caching layer** that reduced p90 latency from ~4x to ~1x of the SLA target.
+>
+> Primary on-call for a tier-0 service — led incident response on a US-East regional P0 (OOM crash from unbounded in-memory cache), identified root cause in ~10 minutes, and shipped a fix that fully closed the incident.
+>
+> Open to **Software Engineer — Backend / Distributed Systems** roles. Feel free to reach out!
 
 ---
 
@@ -67,14 +72,4 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://chowpawan.github.io/Portfolio/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pawanpoka3333@gmail.com)
 
----
-
-## 💼 For Recruiters
-
-> I'm a **Software Engineer II at Intuit** working on the QuickBooks Sales & Invoicing platform — a tier-0 service processing **50K+ transactions/minute** and **$1–2B in payments annually**.
->
-> > Currently driving a **monolith-to-microservices** migration and building GraphQL surfaces for the QuickBooks mobile app.
-> >
-> > > Open to senior backend / distributed systems roles. Feel free to reach out!
-> > >
-> > > ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=80&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=80&section=footer)
