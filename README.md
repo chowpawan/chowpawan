@@ -24,8 +24,10 @@
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ### Distributed Systems & Cloud
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
@@ -36,6 +38,7 @@
 
 ### Data & Observability
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
@@ -46,10 +49,10 @@
 
 | Project | Description | Stack |
 |---|---|---|
+| [**PassKey**](https://github.com/chowpawan/PassKey) | Password vault unlocked with a passkey instead of a master password — full WebAuthn ceremony with `py_webauthn`, AES-GCM-encrypted vault entries & HttpOnly session cookies. [Live demo](https://pass-key-self.vercel.app) | FastAPI, React, TS, WebAuthn |
 | [**EventBus**](https://github.com/chowpawan/EventBus) | Pluggable Kafka event bus with schema validation, per-topic DLQ, exponential backoff retry, idempotent producer (acks=all), correlation-ID tracing & Prometheus metrics | Java, Kafka, Spring Boot |
 | [**APIGateway**](https://github.com/chowpawan/APIGateWay) | Spring Boot gateway with Token Bucket/Leaky Bucket rate limiting on Redis (atomic Lua), Resilience4j circuit breakers, JWT auth & Prometheus/Grafana metrics | Java, Redis, Spring Boot |
 | [**Distributed Payment System**](https://github.com/chowpawan/Distributed-Payment-Processing-System) | 4 microservices integrating with Stripe sandbox — idempotency-key dedup on Redis (SETNX), Saga orchestrator with crash recovery, reconciliation worker & HMAC-SHA256 webhooks | Java, Redis, Stripe |
-| [**Ecommerce Microservices**](https://github.com/chowpawan/ecommerce-microservices) | Spring Cloud services (orders, inventory, payments, notifications) wired via Kafka, MySQL read replicas, Redis caching & K8s blue-green deploys | Java, Kafka, Kubernetes |
 | [**MiniKV**](https://github.com/chowpawan/MiniKV) | Write-optimized key-value store from scratch — LSM-Tree: WAL → MemTable → SSTables with Bloom filters | Java |
 
 ---
